@@ -269,7 +269,7 @@ def main():
             cx = strip_x + 132 + ci * (col_w + 20)
             cy = top + 8
             for hi, headline in enumerate(col_heads):
-                face = typeface("bold", 11) if hi == 0 and ci == 0 else typeface("regular", 11)
+                face = typeface("bold", 12) if hi == 0 and ci == 0 else typeface("regular", 12)
                 cy = draw_lines(pen, cx, cy, "•  " + headline,
                                 face, col_w, BODY, spacing=0)
                 cy += 1
